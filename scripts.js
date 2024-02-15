@@ -40,30 +40,24 @@
 // При натисканні на кнопку html - має видати коротке визначення що це таке.
 // При натисканні на кнопку css - має видати коротке визначення що це таке.
 
+
 // const ex2 = () => {
 //   const htmlDefBtn = document.getElementById('html-def-btn');
 //   const cssDefBtn = document.getElementById('css-def-btn');
 //   const htmlDefOutput = document.getElementById('html-def-output');
 //   const cssDefOutput = document.getElementById('css-def-output');
 
+//   htmlDefOutput.hidden = true;
+//   cssDefOutput.hidden = true;
+
 //   htmlDefBtn.addEventListener('click', () => {
-//     if (htmlDefOutput.textContent === '') {
-//       htmlDefOutput.textContent = 'HTML (англ. Hyper Text Markup Language — мова розмітки гіпертексту) — стандартизована мова розмітки документів для перегляду вебсторінок у браузері.'
-//       htmlDefOutput.classList.toggle('hidden');
-//     } else {
-//       htmlDefOutput.textContent = '';
-//       htmlDefOutput.classList.toggle('hidden');
-//     }
+//     if (htmlDefOutput.hidden === true) htmlDefOutput.hidden = false;
+//     else htmlDefOutput.hidden = true;
 //   })
 
 //   cssDefBtn.addEventListener('click', () => {
-//     if (cssDefOutput.textContent === '') {
-//       cssDefOutput.textContent = 'CSS (англ. Cascading Style Sheets, укр. Каскадні таблиці стилів) — це спеціальна мова стилю сторінок, що використовується для опису їхнього зовнішнього вигляду.'
-//       cssDefOutput.classList.toggle('hidden');
-//     } else {
-//       cssDefOutput.textContent = '';
-//       cssDefOutput.classList.toggle('hidden');
-//     }
+//     if (cssDefOutput.hidden === true) cssDefOutput.hidden = false;
+//     else cssDefOutput.hidden = true;
 //   })
 // }
 
